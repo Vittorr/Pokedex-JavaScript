@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif; /* botar a msm fonte para tudo */
+    box-sizing: border-box;            /* considerar a borda como tamanho total */
+}
+
+body {
+    background-color: #fff;
+}
+
+.content {
+    padding: 1rem; 
+    background-color: #fff;    /* cor do fundo */
+    height: 100vh;               /* tamanho da tela toda */
+    width: 100vw;
+}
+
+/* media query css example */
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;   /* auto bota msm margem pra esquerda e direita e centraliza facilmente */
+        border-radius: 1rem;
+    }
+}
+
+/* .content h1 {
+    margin: 0;
+} */
+
+/* 
+o rem é mais flexivel e o espaçamnto varia com a fonte da pessoa (se fonte for maior espaçamento maior) != do pixel que é fixo
+*/
